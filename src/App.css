@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+}
+
+.addToDo {
+  width: 50%;
+  margin-inline: auto;
+  border: 1px solid lightgray;
+  margin-top: 30px;
+  padding: 10px 0px;
+  box-shadow: 0 0 10px rgb(184, 180, 180);
+}
+
+.row1 {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.row1 > input {
+  padding: 6px 12px;
+  flex: 1;
+  outline: none;
+  border: 1px solid rgb(165, 161, 161);
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(131, 192, 39);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 8px gray;
+}
+
+.container {
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  margin: 20px auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.task {
+  width: 30%;
+  border: 1px solid rgb(150, 147, 147);
+  border-radius: 5px;
+}
+
+.task > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
